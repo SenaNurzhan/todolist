@@ -1,0 +1,86 @@
+.form-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.form {
+  flex-basis: calc(50% - 15px);
+  margin-bottom: 20px;
+  padding: 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+}
+.form-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.ls-titl {
+  margin: 0;
+  font-style: italic;
+  font-weight: bold;
+}
+.ls-desc {
+  font-size: 22px;
+  margin: 15px 0px 30px 0px;
+}
+.ls-type, .ls-prio{
+  display: flex;
+  align-items: center;
+  margin: 5px 0px;
+  font-size: 16px;
+}
+.form label {
+  margin-right: 10px;
+}
+.ls-types, .ls-prios{
+  text-transform: capitalize;
+  font-weight: bold;
+  margin: 0px;
+}
+.ls-div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.ls-date {
+  margin: 5px 0px;
+  font-size: 14px;
+  font-weight: bold;
+}
+.ls-chbox {
+  font-size: 18px;
+} 
+.ls-chbox .status{
+  width: 15px;
+  height: 15px;
+}
+.dropdown {
+  position: relative;
+}
+.dropdown-button {
+  background-color: transparent;
+  border: none;
+  font-size: 24px;
+  color: #999;
+  cursor: pointer;
+  margin-right: 15px;
+}
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  background-color: #fff;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  display: none;
+}
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+.dropdown-menu li {
+  padding: 10px;
+  cursor: pointer;
+}

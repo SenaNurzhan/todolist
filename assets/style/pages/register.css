@@ -1,0 +1,49 @@
+.regis-wrapper {
+    display: flex;
+    justify-content: center;
+    font-family: "Poppins" , serif;
+    margin-top: 2%;
+    background-color: rgba(85, 83, 83, 0.247);
+}
+.regis-form {
+    border: 2px solid #ccc;
+    background-color: #000000a5;
+    padding: 15px 25px;
+    
+}
+.regform-wrap {
+    padding: 30px 55px;
+}
+.regform-wrap h1{
+    color: #fff;
+    margin: 0px;
+    margin-bottom: 30px;
+}
+.regform-wrap input{
+    margin: 10px 0px;
+    background-color:  rgba(0,0,0,0.4);
+    border: none;
+    color: #fff;
+}
+.regform-wrap input::placeholder{
+    color: #fff;
+}
+.regform-wrap hr {
+    border-top: 5px solid #fff;
+}
+
+.back-btn, 
+.regform-wrap input[type="submit"] {
+    background-color: #fff;
+    color: #000;
+    border: none;
+    border-radius: 7px;
+    padding: 10px 25px;
+    cursor: pointer;
+}
+.regform-btns {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px;
+}

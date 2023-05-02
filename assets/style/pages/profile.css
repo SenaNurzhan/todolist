@@ -1,0 +1,58 @@
+.profile-wrapper {
+    margin: 30px 20px;
+    font-family: "Poppins", sans-serif;
+}
+.profile-form {
+    background-color: rgba(0,0,0,0.4);
+    padding: 5% 15%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    margin-bottom: 40px;
+}
+
+.profile-form label{
+    font-style: italic;
+    font-weight: bold;
+}
+
+.profile-ava,
+.profile-items {
+    display: inline-block;
+}
+
+.profile-ava img{
+    border-radius: 50%;
+}
+.profile-ava {
+    text-align: center;
+}
+.mainAva {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+}
+.upload-ava {
+    background-color: rgba(0,0,0,0.4);
+    padding: 5% 15%;
+    border-radius: 10px;
+    display: flex;
+    margin-top: 40px;
+}
+.upload-ava input[type="submit"] {
+    padding: 8px 15px;
+    border: 2px solid #ccc;
+    background: none;
+    margin-left: 60px;
+}
+.upload-ava input[type="file"]{
+    display: none;
+}
+.upload-ava label{
+    cursor: pointer;
+    border: 2px solid #ccc;
+    padding: 8px 15px;
+    margin-top: 15px;
+}

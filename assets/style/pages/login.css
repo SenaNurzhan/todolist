@@ -1,1 +1,42 @@
-
+.login-wrapper {
+    display: flex;
+    justify-content: center;
+    font-family: "Poppins" , serif;
+    margin-top: 6%;
+    background-color: rgba(0,0,0,0.7);
+    border-radius: 20px;
+}
+.login-form {
+    border: 2px solid #ccc;
+    background-color: #fff;
+    padding: 100px 80px;
+    border-radius: 50%;
+}
+.form-wrap {
+    padding: 30px 55px;
+}
+.form-wrap h1{
+    color: #000000cc;
+    margin: 0px;
+    margin-bottom: 30px;
+}
+.form-wrap input {
+    margin: 10px 0px;
+    border: 2px solid #000000cc;
+}
+.form-wrap input[type="submit"],
+.regis-btn {
+    background-color: #ccc;
+    color: black;
+    border: none; 
+    border-radius: 7px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.form-btns {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px;
+    margin-top: 30px;
+}

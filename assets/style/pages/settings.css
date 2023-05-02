@@ -1,0 +1,26 @@
+.setting-form {
+    margin-left: 30px;
+}
+.form-group .change-btn{
+    cursor: pointer;
+    border: 1px solid #ccc;
+    width: 49%;
+    padding: 6px 0px;
+    border-radius: 8px;
+    background: #000;
+    color: #fff;
+    margin-bottom: 5px;
+    margin-top: 20px;
+}
+
+.show-info-btn {
+    cursor: pointer;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background: #000;
+    width: 49%;
+    padding: 6px 0px;
+}
+#show-info-btn {
+    color: #fff;
+}
