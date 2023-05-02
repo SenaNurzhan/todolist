@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;700;800&family=Poppins:wght@400;500;700;800&family=Raleway:wght@400;500;700;800&display=swap');
+
+
+@import url("vendor/styles.css");
+
+@import url("components/navbar.css");
+@import url("components/head-menu.css");
+@import url("components/newForm.css");
+@import url("components/old-info.css");
+@import url("components/edit-form.css");
+
+@import url("pages/profile.css");
+@import url("pages/settings.css");
+@import url("pages/todolist.css");
+@import url("pages/login.css");
+@import url("pages/register.css");
+
+.page-title h1{
+    font-size: 30px;
+    font-weight: bolder;
+    font-family: "Poppins", serif;
+    text-align: center;
+    color: #53545f;
+}
+
