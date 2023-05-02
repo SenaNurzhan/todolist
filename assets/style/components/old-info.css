@@ -1,0 +1,32 @@
+.oldInfo-wrapper {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.7);
+    font-family: "Poppins", sans-serif;
+    color: #3f4047;
+}
+.oldInfo-form {
+    background-color: rgba(255, 255, 255, 0.84);
+    padding: 30px 50px;
+    border: none;
+    border-radius: 25px;
+    width: 50%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;   
+}
+.oldInfo-cls {
+    margin-top: 30px;
+    background-color: #3f4047dc;
+    color: #fff;
+    padding: 5px 12px;
+    border-radius: 15px;
+}

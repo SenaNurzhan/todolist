@@ -1,0 +1,93 @@
+.addForm-wrapper {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 40px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.7);
+    font-family: "Poppins", sans-serif;
+    color: #3f4047;
+}
+.addForm-form {
+    background-color: white;
+    padding: 30px 50px;
+    border: none;
+    border-radius: 25px;
+    width: 50%;
+    height: 75%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    
+}
+.addForm-items {
+    gap: 5px;
+    display: flex;
+    flex-direction: column;
+}
+.addForm-items .radio {
+    display: inline-block;
+    margin-right: 6px;
+}
+.addForm-items input[type="radio"] {
+    margin-right: 3px;
+}
+.addForm-items input[type="date"] {
+    padding-left: 10px;
+}
+.addForm-items input[type="text"],
+.addForm-items input[type="date"],
+.form-priority select {
+    border: none;
+    background-color: whitesmoke;
+    border-radius: 6px;
+    height: 35px;
+}
+::placeholder {
+    padding-left: 10px;
+}
+.form-priority #priority {
+    margin-left: 12px;
+    padding-left: 10px;
+}
+.form-priority select option{
+    background-color: #333;
+    color: #f2f2f2;
+    font-size: 16px;
+}
+.addForm-items textarea{
+    border: none;
+    background-color: whitesmoke;
+    border-radius: 6px;
+}
+.addForm-items label{
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+.btn-class {
+    font-size: 14px; 
+}
+.btn-class button {
+    margin: 0;
+    float: right;
+    padding: 3px 20px;
+    background: #3f4047;
+    border-radius: 5px;
+    color: white;
+    border: none;
+}
+.btn-class button:hover{
+    background: rgba(42, 132, 42, 0.801);
+}
+.btn-class a {
+    color: grey;
+    font-weight: bold;
+}
+.btn-class a:hover {
+    color: #333;
+}
